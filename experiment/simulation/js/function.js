@@ -138,7 +138,8 @@ instance.bind("ready", function () {
 
 FreqSlider.oninput = function () {
     flagS = 1
-    FunctGeneDis.value = "Fq = " + FreqSlider.value + " KHz"
+    FunctGeneDis.value = "Fq = "+FreqSlider.value+"KHz"
+   
     calculateVars()
     updateMeters()
     add.disabled = false
@@ -247,7 +248,7 @@ check.onclick = function checkConn() {
         window.alert("Right connections!")
     }
     else {
-        window.alert("Invalid connections!")
+        window.alert("Please make all the Connections first!")
     }
 }
 
@@ -327,7 +328,12 @@ FunctionGene.onclick = function () {
 }
 
 add.onclick = function AddToTable() {
-   
+
+
+    // Add button get disabled after we take the reading to the observation table.
+
+          add.disabled = 1;
+
     if (vtable.rows.length <= 8) {
         flags6 = 1
 
@@ -339,9 +345,9 @@ add.onclick = function AddToTable() {
         let curval = row.insertCell(3);   //  This is the Curent value getting for the table.
 
         SNo.innerHTML = rindex;
-        voltage.innerHTML = 10
-        curval.innerHTML = Mamm
-        freqval.innerHTML = FreqSlider.value
+        voltage.innerHTML = 10;
+        curval.innerHTML = Mamm;
+        freqval.innerHTML = FreqSlider.value;
        
         I1Val.push(FreqSlider.value)
         I2Val.push(Mamm)
@@ -459,6 +465,8 @@ plot.onclick = function () {
       }
     });
 
+    plot.disabled=1;
+
 }
 
 else {
@@ -467,6 +475,8 @@ else {
 }
     
 }
+
+
 
 // flags7 = 1;
 
