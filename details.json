@@ -1,0 +1,41 @@
+{
+
+   "details": [
+       {
+			"Experiment": "To Determine the Resonance Frequency in a series RLC circuit.",     
+			"Lab": "Basic Electrical Science",               
+			"Discipline": "Electrical Engineering",				 
+			"Technology": "HTML, JavaScript, CSS"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Prof. RS Anand",         
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",         
+      "InstituteAcronym": "IITR"   
+       }
+   ],
+
+   "contributer": [
+       
+       {       
+			"Contributer": "Rajeev Kumar",              
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+			"Contributer": "Piyush Rawat",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+			"InstituteAcronym": "IITR"         
+       },
+
+       {       
+      "Contributer": "Rahul Saini",             
+      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
+      "InstituteAcronym": "IITR"         
+       }
+   ]
+
+}
