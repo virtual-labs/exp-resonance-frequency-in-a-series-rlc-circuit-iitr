@@ -5,7 +5,7 @@
 <b>Discipline | <b> Electrical Engineering
 :--|:--|
 <b> Lab | <b> Basic Electrical Science (Simulation)
-<b> Experiment|     <b> To Determine the Resonance Frequency in a series RLC circuit.
+<b> Experiment|     <b>10. To Determine the Resonance Frequency in a series RLC circuit.
 
 <h5> About the Experiment : </h5> <br>
 
