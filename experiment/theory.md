@@ -14,7 +14,7 @@ For example, if a swing is pushed at its resonant frequency, it results in the s
 The series RLC circuit depicted above is commonly used in various PCB applications. Both inductor and capacitor display dynamic properties in reactance across a different range of frequencies.<br>
 At a specific frequency, the inductive reactance and the capacitive reactance will be of equal magnitude but in opposite phase. They are represented by the equation:<br>
 
-<center>  X_L\ = X_C\ </center><br>
+<center>  XL = XC </center><br>
 
 As both capacitive and inductive reactance cancel each other out, the circuit’s impedance will be purely resistive. When this phenomenon occurs, the circuit is said to be oscillating at its resonant frequency. The resonant frequency of the series RLC circuit is expressed as <br>
 
