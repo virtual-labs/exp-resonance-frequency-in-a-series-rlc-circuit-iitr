@@ -1,4 +1,4 @@
-[{"question":"A series resonant circuit is commonly called a tank circuit.","answers":{"a":"","b":"","c":"","d":""},"correctAnswer":"b"},
+[{"question":"A series resonant circuit is commonly called a tank circuit.","answers":{"a":"True","b":"False"},"correctAnswer":"b"},
 {"question":"In a series RLC circuit that is operating above the resonant frequency, the current","answers":{"a":"Lags the applied voltage","b":"Leads the applied voltage","c": "Is in phase with the applied voltage", "d": "Is zero"},"correctAnswer":"a"},
 {"question":"The impedance at the resonant frequency of a series RLC circuit with L = 20 mH, C = 0.02 μF, and RW = 90 Ω is","answers":{"a":"0 Ω","b":"90 Ω","c":"20 Ω","d":"40 Ω"},"correctAnswer":"b"},
 {"question":"A 24 Ω resistor, an inductor with a reactance of 120 Ω, and a capacitor with a reactance of 120 Ω are in series across a 60 V source. The circuit is at resonance. The voltage across the inductor is","answers":{"a":"60 V","b":"660 V","c":"30 V","d":"300 V"},"correctAnswer":"d"},
