@@ -6,7 +6,7 @@ In daily life, you’ll come across mechanisms that resonate at their resonant f
 
 For example, if a swing is pushed at its resonant frequency, it results in the swing reaching greater heights than it would otherwise. The strings of a musical instrument interact with each other in a similar way. In electronics, you’ll come across resonant frequencies, particularly in RLC circuits.
 
-### Resonant Frequency in a Series RLC Circuit
+### Resonance Frequency in a Series RLC Circuit
 
 <center><img src="images/img2.jpg" alt="Resonance Frequency in a Series RLC circuit." title="Resonant frequency in a Series RLC circuit"> </center>
  <center>Fig.1 Series RLC circuit </center><br/>
@@ -14,7 +14,7 @@ For example, if a swing is pushed at its resonant frequency, it results in the s
 The series RLC circuit depicted above is commonly used in various PCB applications. Both inductor and capacitor display dynamic properties in reactance across a different range of frequencies.<br>
 At a specific frequency, the inductive reactance and the capacitive reactance will be of equal magnitude but in opposite phase. They are represented by the equation:<br>
 
- \[X_L = X_C\]
+<center>  XL = XC </center><br>
 
 As both capacitive and inductive reactance cancel each other out, the circuit’s impedance will be purely resistive. When this phenomenon occurs, the circuit is said to be oscillating at its resonant frequency. The resonant frequency of the series RLC circuit is expressed as <br>
 
