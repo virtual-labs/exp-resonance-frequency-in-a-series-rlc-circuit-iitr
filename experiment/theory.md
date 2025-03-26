@@ -1,81 +1,132 @@
 ### Introduction
 
-A resonant circuit consists of R, L, and C elements and whose frequency response characteristic changes with changes in frequency. A resonant frequency is defined as the natural frequency of a system where it oscillates at the greatest amplitude. A system is said to be in resonance when an external force applied shares the same frequency as its natural frequency.
+<div align="justify" style="font-size:18px;">
 
-In daily life, you’ll come across mechanisms that resonate at their resonant frequency, which results in greater amplitude. Besides bridges, swings, string instruments, and RLC circuits are also known to exhibit extraordinary behaviour at their resonant frequencies. 
+A series resonant circuit is an electrical circuit consisting of a resistor (R), inductor (L), and capacitor (C) connected in series. Resonance occurs when the inductive reactance (X<sub>L</sub>) and capacitive reactance (X<sub>C</sub>) are equal in magnitude but opposite in phase, effectively cancelling each other out. As a result, the circuit's impedance becomes purely resistive at a specific frequency known as the resonant frequency (f<sub>r</sub>). At this point, the impedance reaches its lowest value, allowing the current to reach its maximum.</br></br>
 
-For example, if a swing is pushed at its resonant frequency, it results in the swing reaching greater heights than it would otherwise. The strings of a musical instrument interact with each other in a similar way. In electronics, you’ll come across resonant frequencies, particularly in RLC circuits.
+<center><img src="images/Series RLC circuit.jpg"width="25%" alt="Series RLC circuit" title="Inductive reactance agianst Frequency"> </center>
+ <center>Fig.1 Series RLC circuit</center><br/>
 
-### Resonant Frequency in a Series RLC Circuit
+### Resonance Condition
 
-<center><img src="images/img2.jpg"width="28%" alt="Resonance Frequency in a Series RLC circuit." title="Resonant frequency in a Series RLC circuit"> </center>
-<center>Fig.1 Series RLC circuit </center><br/>
+Resonance in a series RLC circuit happens when:
+    <center> X<sub>L</sub>=X<sub>C</sub></center><br>
 
-The series RLC circuit depicted above is commonly used in various PCB applications. Both inductor and capacitor display dynamic properties in reactance across a different range of frequencies.<br>
-At a specific frequency, the inductive reactance and the capacitive reactance will be of equal magnitude but in opposite phase. They are represented by the equation:<br>
+Since the inductive reactance is given by:
+      <center> X<sub>L</sub>=&#x3C9;<sub>L</sub></center><br>
 
-<center> $ X_L = X_C $  </center>
+and the capacitive reactance is:
 
-As both capacitive and inductive reactance cancel each other out, the circuit’s impedance will be purely resistive. When this phenomenon occurs, the circuit is said to be oscillating at its resonant frequency. The resonant frequency of the series RLC circuit is expressed as <br>
+<div style="text-align:center">
 
-<center> $ f_r = \frac{1}{{2\pi\sqrt{LC}}} $ </center> <br>
+ $X_C=\frac{1}{\omega C}$ </div>
 
-At its resonant frequency, the total impedance of a series RLC circuit is at its minimum. It also means that the current will peak at the resonant frequency as both inductor and capacitor appear as a short circuit.
+Setting them equal to each other: 
 
-<center> <img src="images/img3.png" width="33%" alt="Resonance Frequency in a Series RLC circuit." title="Resonant frequency in a Series RLC circuit"> </center>
+<div style=text-align:center>
 
- <center> Fig.2 Resonance frequency vs Current </center> <br/>
+$ \omega_C=\frac{1}{\omega C}$</div>
 
-A series RLC circuit, which achieves maximum power transfer at resonance, is commonly used as a bandpass filter for radio, TV, or as a noise filter. 
+Solving for the angular frequency($\omega$):
 
-In a Series Resonance RLC circuit there becomes a frequency point were the inductive reactance of the inductor becomes equal in value to the capacitive reactance of the capacitor. In other words, XL = XC. The point at which this occurs is called the Resonance Frequency point, (ƒr) of the circuit, and as we are analysing a series RLC circuit this resonance frequency produces a Series Resonance.
+<div style=text-align:center>
 
-Series Resonance circuits are one of the most important circuits used electrical and electronic circuits. They can be found in various forms such as in AC mains filters, noise filters and also in radio and television tuning circuits producing a very selective tuning circuit for the receiving of the different frequency channels. Consider the simple series RLC circuit below.
+$\omega^2  = \frac{1}{LC}$
 
-<center><img src="images/img4.gif" width="30%" alt="Circuit" title="Circuit"> </center>
+$\omega=\frac{1}{\sqrt LC}$ </div>
 
-<center>Fig.3 Circuit diagram of Series RLC </center><br/>
+since the angular frequency is related to the resonance frequency($f_r$) by:<br><br>
+<div style=text-align:center>
 
-<center><img src="images/img5.gif"width="30%" alt="Formulaes" title="Formulaes"> </center>
+ $ \omega= 2{\pi f_r}$  </div>
 
-From the above equation for inductive reactance, if either the Frequency or the Inductance is increased the overall inductive reactance value of the inductor would also increase. As the frequency approaches infinity the inductors reactance would also increase towards infinity with the circuit element acting like an open circuit.<br>
+ The resonance frequency is given by:
 
-However, as the frequency approaches zero or DC, the inductors reactance would decrease to zero, causing the opposite effect acting like a short circuit. This means that inductive reactance is “Proportional” to frequency and is small at low frequencies and high at higher frequencies and this demonstrated in the fig. 4<br>
+ <div style=text-align:center>
+
+ $ f_r=\frac {1} {2\pi\sqrt LC}$ 
+
+ </div>
 
 ### Inductive Reactance against Frequency 
 
 <center><img src="images/img6.gif"width="25%" alt="Inductive reactance agianst Frequency" title="Inductive reactance agianst Frequency"> </center>
- <center>Fig.4 Inductive reactance vs Frequency  </center><br/>
+<center>Fig.2 Inductive reactance vs Frequency  </center><br/>
 
-The graph of inductive reactance against frequency is a straight line linear curve. The inductive reactance value of an inductor increases linearly as the frequency across it increases. Therefore, inductive reactance is positive and is directly proportional to frequency (XL ∝ ƒ).<br>
+The graph of inductive reactance against frequency is a straight-line curve. The inductive reactance of an inductor increases linearly as the frequency across it increases. Therefore, inductive reactance is positive and directly proportional to frequency($X_L \propto f$)<br>
 
-The same is also true for the capacitive reactance formula above but in reverse. If either the Frequency or the Capacitance is increased the overall capacitive reactance would decrease. As the frequency approaches infinity the capacitors reactance would reduce to practically zero causing the circuit element to act like a perfect conductor of 0Ω.<br>
+The same principle applies to capacitive reactance but in the opposite manner. If either the frequency or capacitance increases, the overall capacitive reactance decreases. As the frequency approaches infinity, the capacitor's reactance decreases to nearly zero, causing it to behave like a perfect conductor with 0 Ω resistance.<br> 
 
-But as the frequency approaches zero or DC level, the capacitors reactance would rapidly increase up to infinity causing it to act like a very large resistance, becoming more like an open circuit condition. This means that capacitive reactance is “Inversely proportional” to frequency for any given value of capacitance and this shown below in Fig. 5 
+Conversely, as the frequency approaches zero (DC level), the capacitor's reactance increases rapidly toward infinity, making it behave like a large resistance, similar to an open circuit. This indicates that capacitive reactance is inversely proportional to frequency for any given capacitance value, as illustrated in Fig. 3.<br>
 
 ### Capacitive Reactance against Frequency
 
 <center> <img src="images/img7.gif" width="25%" alt="Capacitive Reactance against Frequency" title="Capacitive Reactance against Frequency"> </center>
-<center> Fig.5 Capacitive reactance vs Frequency </center> <br/>
+<center> Fig.3 Capacitive reactance vs Frequency </center> <br/>
 
-The graph of capacitive reactance against frequency is a hyperbolic curve. The Reactance value of a capacitor has a very high value at low frequencies but quickly decreases as the frequency across it increases. Therefore, capacitive reactance is negative and is inversely proportional to frequency (XC ∝ ƒ -1).<br>
+The graph of capacitive reactance against frequency is a hyperbolic curve. The Reactance of a capacitor is very high value at low frequencies but decreases rapidly as the frequency increases. Therefore, capacitive reactance is negative and inversely proportional to frequency (XC ∝ ƒ -1).<br>
 
-We can see that the values of these resistances depends upon the frequency of the supply. At a higher frequency XL is high and at a low frequency XC is high. Then there must be a frequency point were the value of XL is the same as the value of XC.<br>
+We can see that the values of reactance depend on the frequency of the supply. At higher frequencies, $X_L$ is high, whereas at lower frequencies, $X_C$ is high. This implies that there must be a specific frequency at which $X_L$ is equal to $X_C$. <br>
 
-If we now place the curve for inductive reactance on top of the curve for capacitive reactance so that both curves are on the same axes, the point of intersection will give us the series resonance frequency point, (ƒr or ωr) as shown below.
+If we now overlay the inductive reactance curve on top of the capacitive reactance curve, aligning them on the same axes, the point of intersection represents the series resonance frequency ($f_r or \omega_r$) as shown below.
 
 <center> <img src="images/img8.gif"width="30%" alt="Series Resonance" title="Series Resonance"> </center>
-<center> Fig.6 Reactance vs Resonance frequency </center><br/>
+<center> Fig.4 Reactance vs Resonance frequency </center><br/>
 
-where: ƒr is in Hertz, L is in Henries and C is in Farads.<br>
-Electrical resonance occurs in an AC circuit when the effects of the two reactances, which are opposite and equal, cancel each other out as XL = XC. The point on the above graph at which this happens is were the two reactance curves cross each other.<br>
-In a series resonant circuit, the resonant frequency, ƒr point can be calculated as follows.<br>
+<b>Quality Factor (Q) and Bandwidth (Δf)</b>
 
-<center><img src="images/img12.png"width="30%" alt="Formulaes" title="Formulaes"> </center>
+<b>Quality Factor(Q-Factor)</b>
 
-### Applications of Series Resonance RLC Circuit::- 
+The Q-factor measures the sharpness of resonance and is defined as:<br>
 
-•	Oscillator circuit, radio receivers, and television sets are used for the tuning purpose.<br>
-•	The series and RLC circuit mainly involves in signal processing and communication system
+<div style=text-align:center>
+
+$ Q=\frac {\omega_r L}  {R}= \frac{1}{\omega_r CR}$
+</div>
+
+For a series RLC circuit, the Q-factor can also be expressed as:<br>
+
+<div style=text-align:center>
+
+$  Q=\frac {X_L}{R} = \frac {1}{R}\frac {\sqrt L}{C} $
+</div>
+
+<b>High Q-factor:</b> Narrow bandwidth,sharp resonance.<br>
+<b>Low Q-factor:</b> Wider bandwidth, less sharp resonance.
+
+<b>Bandwidth(Δf)</b><br>
+
+The bandwidth is the range of frequencies over which the circuit effectively responds and is defined as:<br>
+
+<div sttle=text-align:center>
+
+$ Δf = f_L−f_H$ <br>
+
+</div>
+Where,<br>
+•	$f_L$ = Lower cutoff frequency (where the amplitude drops to 1/root 2 or -3 dB below peak).<br>
+•	$f_H$ = Upper cutoff frequency (similarly, where amplitude drops by -3 dB).<br>
+•	$f_r$ = Resonant frequency, located at the peak of the curve.<br>
+
+<div style=text-align:center>
+
+$ Δf=\frac {f_r}{Q}$
+</div>
+
+A higher Q-factor results in a smaller bandwidth, making the circuit more frequency-selective.
+
+<center> <img src="images/Resonance curve.png"width="30%" alt="Series Resonance" title="Series Resonance"> </center><br>
+<center> Fig.5 Resonance Curve </center><br/>
+
+<b>Applications of resonance in RLC circuits</b><br><br>
+1.<b>Radio and TV Tuners:</b> Used in tuning circuits to select specific frequencies.<br><br>
+2.<b>Filters and Oscillators:</b> Essential in designing band-pass filters and frequency-selective networks.<br><br>
+3.<b>Wireless Power Transfer:</b> Resonant circuits improve efficiency in wireless energy transfer applications.
+
+</div>
+
+
+
+
 
  

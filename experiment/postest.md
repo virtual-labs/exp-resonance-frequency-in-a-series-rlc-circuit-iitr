@@ -1,6 +1,8 @@
 ## Post test
 #### Please attempt the following questions
 
+### Note- Reference books are available in the reference section.
+
 <b>Q1. A resistor of 3 kΩ, a 0.05 μF capacitor, and a 120 mH coil are in series across a 5 kHz, 20 V ac source. What is the impedance, expressed in polar form?</b><br>
 
 A 636 Ω  <br>
@@ -27,7 +29,7 @@ D  40 V <br>
 A  7 kHz <br>
 B  13 kHz <br>
 C  20 kHz <br>
-D  4 kHz <br>
+D  6 kHz <br>
 
 <b>Q5.A 200 Ω resistor, a coil with 30 Ω of reactance, and a capacitor of unknown reactance are in series across an ac source. The circuit is at resonance. Circuit impedance is?</b> <br>
 
@@ -48,11 +50,11 @@ B  WC<sup>2</sup><br>
 C  W<sup>2</sup>L<br>
 D  W<sup>2</sup>LC<br>
 
-<b>Q8. Calculate the quality factor Q for an RLC circuit having R= 10ohm , C= 30microfrah and L = 27mh?</b> <br>
+<b>Q8. Calculate the quality factor Q for an RLC circuit having R= 10Ω , C= 30μF and L = 27mh.</b> <br>
 
-A   3 <br>
+A   3  <br>
 B   6  <br>
-C   9 <br>
+C   9  <br>
 D   15 <br>
 
 <b>Q9. In an AC circuit R= 0ohm, XL= 8ohm and Xc= 6ohm phase difference between voltage and current is?</b> <br>

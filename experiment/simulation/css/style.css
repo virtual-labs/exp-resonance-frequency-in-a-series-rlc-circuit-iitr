@@ -577,7 +577,6 @@ body {
 
 .transformer {
     position: relative;
-
     width: 500px;
     top: -50px;
 }
@@ -608,7 +607,6 @@ body {
     position: relative;
     top: 148px;
     left: 200px;
-
     height: 30px;
     width: 30px;
     border-radius: 25px;
@@ -737,13 +735,10 @@ body {
     font-size: 19px;
     padding-top: -20px;
     overflow: visible;
-
     transition: all 0.2s ease-in-out;
-
     position: absolute;
     top: 40px;
     left: -300px;
-
     height: 650px;
     width: 300px;
 }
@@ -761,7 +756,6 @@ body {
     text-align: center;
     margin-top: -10px;
     font-size: 30px;
-
     height: 40px;
     width: 90%;
 }
@@ -774,7 +768,6 @@ body {
     padding-top: 0px;
     border-radius: 10px;
     font-size: 19px;
-
     height: 550px;
     overflow: auto;
 }
@@ -787,10 +780,8 @@ body {
     text-align: center;
     font-size: 20px;
     border-radius: 0px 10px 10px 0px;
-
     height: 120px;
     width: 50px;
-
     position: absolute;
     top: 10px;
     left: 300px;
@@ -810,10 +801,7 @@ body {
     font-family: 'Zacbel X', sans-serif;
     overflow: visible;
     position: absolute;
-
-
     font-size: 12px;
-
     border: 2px solid white;
     background-color: white;
     border-radius: 2px;
@@ -903,7 +891,6 @@ body {
     pointer-events: none;
     -moz-user-select: none;
     user-select: none;
-
     -moz-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
@@ -999,11 +986,8 @@ body {
     color: black;
     /* background-color: rgba(129, 129, 129, 0.313); */
     background-color: lightslategray;
-
     margin: 0px 10px;
     border-radius: 10px;
-
-
     text-align: center;
     font-family: 'Foco Trial', sans-serif;
     font-size: 20px;
