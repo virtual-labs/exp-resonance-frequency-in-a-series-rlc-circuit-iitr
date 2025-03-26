@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Add your styling here */
+  </style>
+</head>
+<body>
+  <input type="range" id="slider" value="0" min="0" max="100" step="10" />
+  
+  <script>
+    const slider = document.getElementById("slider");
+    let previousValue = slider.value;
+
+    slider.addEventListener("input", () => {
+      if (slider.value < previousValue) {
+        slider.value = previousValue; // Prevent selecting a decreasing value
+      } else {
+        previousValue = slider.value; // Update previousValue for future comparisons
+      }
+    });
+  </script>
+</body>
+</html>

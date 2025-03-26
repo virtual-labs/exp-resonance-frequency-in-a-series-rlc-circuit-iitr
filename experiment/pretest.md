@@ -1,6 +1,8 @@
 ## Pre test
 #### Please attempt the following questions
 
+### Note- Reference books are available in the reference section.
+
 <b>Q1. A series resonant circuit is commonly called a tank circuit.</b><br>
 
 A  True<br>
@@ -27,7 +29,7 @@ B   660 V<br>
 C   30 V<br>
 D   300 V<br>
 
-<b>Q5. The reactive voltages, VL and VC, cancel at resonance.</b><br>
+<b>Q5. The reactive voltages, $V_L$ and $V_C$, cancel at resonance.</b><br>
 
 A   True <br>
 B   False<br>
@@ -56,9 +58,9 @@ B  0.5 <br>
 C  0 <br>
 D  1 <br>
 
-<b>Q10. The Quality factor ‘Q’ equal to _______ and it is an indicator of the sharpness of the resonance in a RLC circuit.</b><br>
+<b>Q10. The Quality factor ‘Q’ is equal to _______, and it is an indicator of the sharpness of the resonance in a RLC circuit.</b><br>
 
-A   W<sub>O</sub>R/L <br>
-B   W<sub>O</sub>L/R<br>
-C   LR/W<sub>O</sub> <br>
-D   LRW<sub>O</sub><br>
+A   $\omega$<sub>O</sub>R/L <br>
+B   $\omega$<sub>O</sub>L/R<br>
+C   LR/$\omega$<sub>O</sub> <br>
+D   LR $\omega$<sub>O</sub><br>

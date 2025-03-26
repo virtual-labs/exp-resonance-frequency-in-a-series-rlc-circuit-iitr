@@ -10,6 +10,8 @@
 
 <b>Note: Click on the label to delete the connection for the corresponding node.</b><br/>
 
+<img src="simulation/images/Resonance_Frequency.png" height="300" width="550"/> <br/>
+
 <b>Step 2:</b> (a) Now, Check the connections by clicking on <b> ‘CHECK’</b> button.<br/>
 (b) If the connections are <b>‘Invalid connections’</b> click on corresponding node to remove the connection.<br/>
 (c) And if the connections are <b>‘Right Connections’</b> then follow the below steps.<br/><br/>
