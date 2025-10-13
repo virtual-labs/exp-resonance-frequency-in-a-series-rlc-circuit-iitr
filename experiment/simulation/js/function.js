@@ -158,9 +158,6 @@ instance.bind("ready", function () {
 
 
 
-
-
-
          //function for the nodes to disconnect from its position
 
 
@@ -308,8 +305,6 @@ function staticConn() {
     }
 }
 
-/*
-
 check.onclick = function checkConn() {
     flags2 = 1;
     if (staticConn()) {
@@ -408,13 +403,10 @@ function setZero() {
     rotate_element(0, VoltmeterNeedle);
 }
 
-
-*/
-
 function calculateVars() {
 
-    let freqList = [0, 5, 10, 15, 20, 23];
-    let currList = [0.95,0.73,0.65,0.58,0.45,0];
+    let freqList = [1, 2, 3, 4, 5, 6, 7, 8];
+    let currList = [3.6, 7.0, 10, 8.8, 7.2, 6, 5.2, 4.6];
 
     Mamm = currList[freqList.indexOf(parseInt(FreqSlider.value))]
     Mvol = 10
@@ -580,9 +572,9 @@ window.onload = function setJsPlumb() {
         
     });
 
-    var frequency = [0,5,10,15,20,25]
+    var frequency = [1,2,3,4,5,6,7,8]
 
-    var current= [0.95,0.73,0.65,0.58,0.45,0]
+    var current= [3.6,7.0,10,8.8,7.2,6,5.2,4.6]
     
     new Chart("myPlot", {
       
